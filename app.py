@@ -4,6 +4,8 @@ import nltk
 import string
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
+import spacy
+nlp = spacy.load("en_core_web_sm")
 
 nltk.download('punkt')
 nltk.download('stopwords')
